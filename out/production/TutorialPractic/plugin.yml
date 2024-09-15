@@ -1,0 +1,17 @@
+name: TutoralPractice
+version: 1.0
+author: JobLessGod
+main: com.joblessgod.tutorial.Tutorial
+api-version: 1.14
+commands:
+  heal:
+    description: Heals player to max health.
+    usage: /<command>
+    aliases: healme
+  feed:
+    description: Feeds player to max health.
+    usage: /<command>
+    aliases: feedme
+  farmtime:
+    description: Spawns a specifide entites.
+    usage: /<command>
