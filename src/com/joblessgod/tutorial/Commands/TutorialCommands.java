@@ -1,5 +1,6 @@
 package com.joblessgod.tutorial.Commands;
 
+import com.joblessgod.tutorial.Items.ItemManager;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -47,6 +48,10 @@ public class TutorialCommands implements CommandExecutor {
 
         } else {
             player.sendMessage("§c§l(!) §c/farmtime <mob> <amount>");
+        }
+
+        if(cmd.getName().equalsIgnoreCase("givewand")) {
+            player.getInventory().addItem(ItemManager.wand);
         }
 
         return true;

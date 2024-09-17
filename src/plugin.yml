@@ -15,3 +15,9 @@ commands:
   farmtime:
     description: Spawns a specifide entites.
     usage: /<command>
+  givewand:
+    description: Give SuperLucky wand.
+    usage: /<command>
+  choose:
+    description: Makes selections
+    usage: /<command>
